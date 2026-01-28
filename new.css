@@ -1,0 +1,1372 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3f4f6;
+}
+/* Important  */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn {
+  padding: 14px 36px;
+  background: transparent;
+  border: 2px solid #38bdf8;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+/* Important  */
+
+/* Header Section Start  */
+#navbar img {
+  width: 150px;
+  margin-left: 50px;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.links a {
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+.links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: #38bdf8;
+  transition: width 0.3s ease;
+}
+
+.links a:hover::after {
+  width: 100%;
+}
+
+.links a:hover {
+  color: #38bdf8;
+}
+#navbar {
+  margin-right: 50px;
+}
+nav a {
+  padding: 15px 20px;
+  font-weight: 600;
+}
+
+.btn-link {
+  background: transparent;
+  border: 2px solid #38bdf8;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-right: 70px;
+}
+
+.btn-link:hover {
+  background-color: #38bdf8;
+  color: #0f172a;
+  transform: translateY(-2px);
+}
+
+/* Content Section  */
+header .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+}
+header .content h1 {
+  font-size: 45px;
+  color: #fff;
+  max-width: 700px;
+  text-align: center;
+  line-height: 1.3;
+}
+
+header .content p {
+  color: #e5e7eb;
+  margin: 20px 0 40px;
+  font-size: 18px;
+}
+
+header {
+  height: 100vh;
+  background: url("img/home.png") center center/cover no-repeat;
+  position: relative;
+}
+header::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0, 0.6);
+}
+header * {
+  z-index: 10;
+}
+.btn:hover {
+  background-color: #38bdf8;
+  color: #0f172a;
+  transform: translateY(-2px);
+}
+/* Why US Start  */
+.icon img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+#why-travel .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#why-travel h2 {
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+#why-travel {
+  background-color: #0f172a;
+  padding: 20px 50px 50px;
+  text-align: center;
+  color: #fff;
+}
+.why-travel2 {
+  max-width: 300px;
+}
+.why-travel2 h3 {
+  margin: 20px 0 15px;
+  font-size: 20px;
+}
+.why-travel2 p {
+  font-size: 15px;
+  color: #cbd5f5;
+  line-height: 1.6;
+}
+
+/* Header Section End  */
+/* Special Offers Start  */
+.offer11 {
+  background-image: url(img/special1.png);
+}
+.offer22 {
+  background-image: url(img/special\ 2.png);
+}
+.offer33 {
+  background-image: url(img/special3.png);
+}
+
+#offers {
+  padding: 0 50px;
+  padding-bottom: 150px;
+  padding-top: 50px;
+  background-image: url("img/offersbackground.png");
+  text-align: center;
+  color: #fff;
+}
+#offers .title {
+  font-size: 38px;
+}
+#offers .title h2 {
+  margin-bottom: 30px;
+}
+#offers .title p {
+  color: #cbd5f5;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+#offers .container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.offers-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.offers2 {
+  width: 320px;
+  height: 420px;
+  border-radius: 22px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.offers2:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+}
+.offers2 {
+  position: relative;
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.offers2 h3 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.offers2 p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #e5e7eb;
+}
+.offers2 .btn {
+  margin-top: 250px;
+}
+.offers2 .btn {
+  display: inline-block;
+  padding: 10px 28px;
+  background-color: #fefefe;
+  color: #0f172a;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.3s ease, transform 0.3s ease;
+  border: none;
+}
+
+.offers2 .btn:hover {
+  background-color: #0ea5e9;
+  transform: translateY(-2px);
+}
+/* Special Offers End  */
+#trips {
+  background-color: #eef2f7;
+  padding: 50px 50px;
+  text-align: center;
+}
+#trips h2 {
+  font-size: 38px;
+  margin-bottom: 10px;
+  color: #0f172a;
+}
+.title p {
+  color: #64748b;
+  margin-bottom: 70px;
+  font-size: 16px;
+}
+#trips .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.trip-card {
+  background-color: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.trip {
+  width: 320px;
+  height: 380px;
+  border-radius: 18px;
+}
+.trip img {
+  height: 180px cover Rounded;
+  width: 100%;
+}
+.trip {
+  background-color: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.trip:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+}
+.trip-info {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.trip-info h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #0f172a;
+}
+
+.trip-info p {
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 18px;
+}
+.trip-info a {
+  padding: 10px 22px;
+  background-color: #38bdf8;
+  color: #0f172a;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.trip-info a:hover {
+  background-color: #0ea5e9;
+  transform: translateY(-2px);
+}
+
+/* Contact Start  */
+
+#contact {
+  width: 100%;
+  padding: 50px 0;
+  background: linear-gradient(135deg, #f8fafc, #eef2f7);
+}
+
+/* Title */
+#contact .title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#contact .title h2 {
+  font-size: 34px;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+#contact .title p {
+  color: #64748b;
+  font-size: 15px;
+}
+
+/* Container */
+#contact .container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 60px;
+  align-items: center;
+}
+
+/* Contact Card (Form) */
+
+#contact {
+  position: relative;
+  min-height: auto;
+  background: url("img/contact.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* overlay */
+.contact-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+/* wrapper */
+.contact-wrapper {
+  position: relative;
+  width: 85%;
+  max-width: 1100px;
+  display: flex;
+  gap: 60px;
+  z-index: 2;
+}
+
+/* LEFT SIDE */
+.contact-left {
+  flex: 1;
+}
+
+.contact-left h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.contact-left p {
+  color: #d1d5db;
+  margin-bottom: 35px;
+  line-height: 1.6;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 25px;
+}
+
+.info-item img {
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 50%;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.info-item:hover img {
+  transform: translateY(-6px);
+  background-color: #38bdf8;
+}
+.info-item h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.info-item span {
+  font-size: 14px;
+  color: #cbd5f5;
+}
+
+/* RIGHT SIDE (FORM) */
+.contact-right {
+  width: 360px;
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 6px;
+}
+
+.contact-right h3 {
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-right input,
+.contact-right textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  outline: none;
+}
+
+.contact-right textarea {
+  height: 90px;
+  resize: none;
+}
+
+.contact-right button {
+  background: #22c1dc;
+  border: none;
+  padding: 12px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-right button:hover {
+  background: #0ea5e9;
+}
+
+/* Contact End  */
+/* Footer Start */
+#footer {
+  background-color: #0f172a;
+  text-align: center;
+  color: #cbd5f5;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+#footer span {
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+/* Footer End */
+
+/* media Start  */
+@media (max-width: 768px) {
+  /* ===== GLOBAL FIXES ===== */
+  body {
+    overflow-x: hidden;
+  }
+
+  section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* ===== NAVBAR ===== */
+  #navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+    gap: 15px;
+  }
+
+  #navbar img {
+    margin: 0;
+    width: 120px;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .btn-link {
+    margin: 0;
+  }
+
+  /* ===== HERO ===== */
+  header {
+    height: auto;
+    padding-bottom: 60px;
+  }
+
+  header .content {
+    padding: 0 10px;
+  }
+
+  header .content h1 {
+    font-size: 26px;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  header .content p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  header .content button {
+    padding: 12px 28px;
+  }
+
+  /* ===== WHY TRAVEL ===== */
+  .why-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .why-card {
+    max-width: 320px;
+  }
+
+  /* ===== SPECIAL OFFERS ===== */
+  .offers-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+
+  .offer-card {
+    width: 100%;
+    max-width: 320px;
+    height: 400px;
+  }
+
+  /* ===== TRIPS ===== */
+  .trips-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .trip-card {
+    max-width: 320px;
+    margin: auto;
+  }
+
+  /* ===== CONTACT ===== */
+  #contact {
+    padding: 60px 0;
+  }
+
+  #contact .container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .contact-info {
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-info .details {
+    justify-content: center;
+  }
+
+  .contact-card {
+    width: 100%;
+    max-width: 340px;
+  }
+
+  /* ===== FOOTER ===== */
+  #footer {
+    font-size: 13px;
+    padding: 18px 10px;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* FIX START */
+
+/* ===============================
+   HEADER — CLEAN CENTER FIX
+================================ */
+
+/* HEADER BASE */
+header {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* NAVBAR */
+#navbar {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 60px;
+  height: auto;
+}
+
+#navbar img {
+  margin: 0;
+}
+
+.links {
+  gap: 40px;
+}
+
+.btn-link {
+  margin: 0;
+}
+
+/* HERO CONTENT CENTER */
+header .content {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* TEXT */
+header .content h1 {
+  font-size: 48px;
+  max-width: 900px;
+  margin-bottom: 20px;
+}
+
+header .content p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* BUTTON */
+header .content .btn {
+  margin: 0;
+}
+
+
+
+
+
+/* ===============================
+   WHY TRAVEL — CLEAN DESKTOP FIX
+================================ */
+
+#why-travel {
+  padding: 80px 20px;
+}
+
+#why-travel h2 {
+  margin-bottom: 60px;
+}
+
+/* CONTAINER */
+#why-travel .container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+/* CARD */
+.why-travel2 {
+  width: 100%;
+  max-width: 340px;
+  text-align: center;
+}
+
+/* ICON */
+.icon img {
+  margin: 0 auto;
+}
+
+/* TEXT */
+.why-travel2 h3 {
+  font-size: 20px;
+}
+
+.why-travel2 p {
+  font-size: 15px;
+  line-height: 1.7;
+}
+/* ===============================
+   SPECIAL OFFERS — CLEAN DESKTOP FIX
+================================ */
+
+#offers {
+  padding: 100px 20px 140px;
+}
+
+/* TITLE */
+#offers .title {
+  max-width: 1200px;
+  margin: 0 auto 60px;
+}
+
+/* CONTAINER */
+#offers .container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 40px;
+}
+
+/* CARD */
+.offers2 {
+  width: 100%;
+  min-height: 420px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+
+  padding: 30px;
+  border-radius: 22px;
+}
+
+/* TEXT */
+.offers2 h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.offers2 p {
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+/* BUTTON */
+.offers2 .btn {
+  margin: 0 auto;
+}
+
+/* ===============================
+   TRIPS — CLEAN DESKTOP FIX
+================================ */
+
+#trips {
+  padding: 100px 20px;
+}
+
+/* TITLE */
+#trips .title {
+  max-width: 1200px;
+  margin: 0 auto 70px;
+}
+
+/* GRID */
+#trips .container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+/* CARD */
+.trip {
+  width: 100%;
+  height: auto;
+
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* IMAGE */
+.trip .pic {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.trip .pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* INFO */
+.trip-info {
+  padding: 20px;
+}
+
+.trip-info h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.trip-info p {
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+/* ===============================
+   CONTACT — CLEAN DESKTOP FIX
+================================ */
+
+#contact {
+  padding: 120px 20px;
+}
+
+/* WRAPPER */
+.contact-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+/* LEFT */
+.contact-left {
+  flex: 1;
+}
+
+.contact-left h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact-left p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+/* INFO ITEMS */
+.info-item {
+  margin-bottom: 30px;
+}
+
+/* RIGHT (FORM) */
+.contact-right {
+  width: 100%;
+  max-width: 420px;
+
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.contact-right h3 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+/* FIX END */
+/* ===============================
+   GLOBAL OVERFLOW + CENTER FIX
+   SAFE FINAL PATCH
+================================ */
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* prevent any element from pushing screen */
+* {
+  max-width: 100%;
+}
+
+/* kill fixed margins causing shift */
+#navbar img,
+#navbar,
+.btn-link {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* force main wrappers to stay centered */
+header,
+section,
+#navbar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+/* ===============================
+   MOBILE — SECTION 1
+   NAVBAR + HERO (DESKTOP STYLE)
+================================ */
+
+@media (max-width: 768px) {
+
+  /* ===== NAVBAR ===== */
+  #navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 12px;
+    height: auto;
+  }
+
+  #navbar img {
+    width: 90px;
+    flex-shrink: 0;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    flex-wrap: nowrap;
+  }
+
+  .links a {
+    font-size: 12px;
+    padding: 0;
+    white-space: nowrap;
+  }
+
+  .btn-link {
+    padding: 6px 12px;
+    font-size: 11px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* ===== HERO ===== */
+  header {
+    min-height: 100vh;
+  }
+
+  header .content {
+    padding: 80px 12px 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header .content h1 {
+    font-size: 22px;
+    max-width: 90%;
+    line-height: 1.3;
+  }
+
+  header .content p {
+    font-size: 13px;
+    margin-bottom: 28px;
+  }
+
+  header .content .btn {
+    padding: 10px 26px;
+    font-size: 13px;
+  }
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+
+
+
+@media (max-width: 768px) {
+
+  #navbar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px;
+  }
+
+  #navbar img {
+    width: 90px;
+    flex: 0 0 auto;
+  }
+
+  .links {
+    display: flex;
+    gap: 10px;
+    flex: 1 1 auto;         
+    justify-content: center;
+    flex-wrap: wrap;        
+  }
+
+  .links a {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .btn-link {
+    flex: 0 1 auto;       
+    padding: 6px 12px;
+    font-size: 11px;
+    white-space: nowrap;
+  
+  }
+  #navbar {
+    padding-left: 16px;
+    padding-right: 16px;   
+  }
+
+  .btn-link {
+    margin-right: 4px; 
+  }
+}
+
+
+/* ===============================
+   MOBILE — SECTION 2
+   WHY TRAVEL (SIDE BY SIDE)
+================================ */
+
+@media (max-width: 768px) {
+
+  #why-travel {
+    padding: 60px 16px;
+  }
+
+  #why-travel h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  #why-travel .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: nowrap;   
+  }
+
+  .why-travel2 {
+    flex: 1 1 0;
+    max-width: none;
+  }
+
+  .why-travel2 h3 {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .why-travel2 p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .icon img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+
+/* ===============================
+   MOBILE — SECTION 3
+   SPECIAL OFFERS (SIDE BY SIDE)
+================================ */
+
+@media (max-width: 768px) {
+
+  #offers {
+    padding: 70px 16px 90px;
+  }
+
+  #offers .title h2 {
+    font-size: 26px;
+  }
+
+  #offers .title p {
+    font-size: 14px;
+  }
+
+  #offers .container {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    flex-wrap: nowrap;      
+  }
+
+  .offers2 {
+    flex: 1 1 0;
+    min-height: 320px;      
+    padding: 20px;
+  }
+
+  .offers2 h3 {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+
+  .offers2 p {
+    font-size: 12px;
+    margin-bottom: 14px;
+  }
+
+  .offers2 .btn {
+    padding: 6px 16px;
+    font-size: 12px;
+  }
+}
+
+/* ===============================
+   MOBILE — SPECIAL OFFERS CARD FIX
+   natural height + image
+================================ */
+
+@media (max-width: 768px) {
+
+  .offers2 {
+    min-height: auto;       
+    aspect-ratio: 3 / 4;     
+    padding: 16px;
+  }
+
+
+  .offer11,
+  .offer22,
+  .offer33 {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .offers2 h3 {
+    font-size: 15px;
+  }
+
+  .offers2 p {
+    font-size: 12px;
+  }
+}
+/* ===============================
+   MOBILE — SECTION 4
+   TRIPS (SIDE BY SIDE)
+================================ */
+
+@media (max-width: 768px) {
+
+  #trips {
+    padding: 70px 16px;
+  }
+
+  #trips .title h2 {
+    font-size: 26px;
+  }
+
+  #trips .title p {
+    font-size: 14px;
+  }
+
+  /* GRID */
+  #trips .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 12px;
+  }
+
+  /* CARD */
+  .trip {
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  /* IMAGE */
+  .trip .pic {
+    height: auto;
+    aspect-ratio: 4 / 3;
+  }
+
+  .trip .pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* INFO */
+  .trip-info {
+    padding: 12px;
+  }
+
+  .trip-info h3 {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+  .trip-info p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .trip-link {
+    font-size: 12px;
+    padding: 6px 14px;
+  }
+}
+/* ===============================
+   MOBILE — SECTION 5
+   CONTACT (SIDE BY SIDE)
+================================ */
+
+@media (max-width: 768px) {
+
+  #contact {
+    padding: 70px 16px;
+  }
+
+  /* WRAPPER */
+  .contact-wrapper {
+    display: flex;
+    flex-direction: row;      /* 👈 جنب بعض */
+    gap: 16px;
+    align-items: stretch;
+  }
+
+  /* LEFT INFO */
+  .contact-left {
+    flex: 1 1 0;
+  }
+
+  .contact-left h2 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+
+  .contact-left p {
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .info-item {
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+
+  .info-item img {
+    width: 26px;
+    height: 26px;
+  }
+
+  .info-item h4 {
+    font-size: 13px;
+  }
+
+  .info-item span {
+    font-size: 12px;
+  }
+
+  /* RIGHT FORM */
+  .contact-right {
+    flex: 1 1 0;
+    max-width: none;
+    padding: 16px;
+  }
+
+  .contact-right h3 {
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+
+  .contact-right input,
+  .contact-right textarea {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .contact-right button {
+    padding: 8px;
+    font-size: 13px;
+  }
+}
