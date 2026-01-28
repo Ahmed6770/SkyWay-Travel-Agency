@@ -1433,3 +1433,67 @@ section,
     background-position: center !important;
   }
 }
+
+/* ===============================
+   FINAL FIX — CONTACT SECTION
+   MOBILE ONLY
+================================ */
+
+@media (max-width: 768px) {
+
+  #contact {
+    padding: 60px 16px !important;
+  }
+
+  /* wrapper */
+  .contact-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 24px !important;
+  }
+
+  /* left side */
+  .contact-left {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .contact-left h2 {
+    font-size: 22px !important;
+  }
+
+  .contact-left p {
+    font-size: 13px !important;
+    margin-bottom: 24px !important;
+  }
+
+  .info-item {
+    justify-content: center !important;
+  }
+
+  /* right side (form) */
+  .contact-right {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    padding: 20px !important;
+  }
+
+  .contact-right h3 {
+    font-size: 16px !important;
+  }
+
+  .contact-right input,
+  .contact-right textarea {
+    font-size: 13px !important;
+    padding: 10px !important;
+  }
+
+  .contact-right button {
+    font-size: 14px !important;
+    padding: 10px !important;
+  }
+}
