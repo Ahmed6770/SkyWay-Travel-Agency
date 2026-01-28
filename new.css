@@ -1370,3 +1370,66 @@ section,
     font-size: 13px;
   }
 }
+/* ===============================
+   FINAL FIX — NAVBAR OVERFLOW
+================================ */
+
+#navbar {
+  box-sizing: border-box;
+}
+
+.btn-link {
+  margin-right: 0 !important;
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+  #navbar {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  #navbar {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .btn-link {
+    margin-left: 8px;
+  }
+  
+}
+/* ===============================
+   FORCE FIX — SPECIAL OFFERS
+   MOBILE ONLY (REAL OVERRIDE)
+================================ */
+
+@media (max-width: 768px) {
+
+  #offers .container {
+    display: flex !important;
+    gap: 12px;
+  }
+
+  .offers2 {
+    height: 260px !important;      
+    min-height: 260px !important;
+    max-height: 260px !important;
+
+    padding: 14px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-end !important;
+  }
+
+  .offer11,
+  .offer22,
+  .offer33 {
+    background-size: cover !important;
+    background-position: center !important;
+  }
+}
